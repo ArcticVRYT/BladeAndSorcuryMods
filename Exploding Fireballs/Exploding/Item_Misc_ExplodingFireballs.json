@@ -1,0 +1,23 @@
+{
+  "$type": "ThunderRoad.ItemData, ThunderRoad",
+  "id": "ExplodingFireball",
+  "saveFolder": "bas",
+  "sensitiveContent": "None",
+  "sensitiveFilterBehaviour": "Discard",
+  "version": 4,
+  "modules": [
+    {
+      "$type": "ExplodingFireballs.ExplosionModule, ExplodingFireballs",
+      "explosionRadius": 10.0,
+      "explosionForce": 25.0,
+      "explosionDamage": 20.0,
+      "explosionEffectId": "FireballExplosion",
+      "explosionEffectAutoScaling": true,
+      "explosionEffectScale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      }
+    }
+  ]
+}

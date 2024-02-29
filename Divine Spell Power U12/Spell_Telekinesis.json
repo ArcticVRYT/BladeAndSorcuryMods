@@ -1,0 +1,110 @@
+{
+  "$type": "ThunderRoad.SpellTelekinesis, ThunderRoad",
+  "id": "Telekinesis",
+  "saveFolder": "bas",
+  "version": 0,
+  "maxCatchDistance": "Infinity",
+  "positionSpring": 10000.0,
+  "positionDamper": 1000.0,
+  "positionMaxForce": 100000.0,
+  "rotationSpring": 10000.0,
+  "rotationDamper": 1000.0,
+  "rotationMaxForce": 100000.0,
+  "followDefaultSpeedCurve": {
+    "$type": "UnityEngine.AnimationCurve, UnityEngine.CoreModule",
+    "keys": [
+      {
+        "$type": "UnityEngine.Keyframe, UnityEngine.CoreModule",
+        "time": 0.0,
+        "value": 0.0,
+        "inTangent": 0.0,
+        "outTangent": 10000.0,
+        "inWeight": 0.0,
+        "outWeight": 10000.0,
+        "weightedMode": "None",
+        "tangentMode": 65
+      },
+      {
+        "$type": "UnityEngine.Keyframe, UnityEngine.CoreModule",
+        "time": 0.1,
+        "value": 1000.0,
+        "inTangent": 10000.0,
+        "outTangent": 0.0,
+        "inWeight": 10000.0,
+        "outWeight": 0.0,
+        "weightedMode": "None",
+        "tangentMode": 5
+      }
+    ],
+    "length": 2,
+    "preWrapMode": "ClampForever",
+    "postWrapMode": "ClampForever"
+  },
+  "followRagdollSpeedCurve": {
+    "$type": "UnityEngine.AnimationCurve, UnityEngine.CoreModule",
+    "keys": [
+      {
+        "$type": "UnityEngine.Keyframe, UnityEngine.CoreModule",
+        "time": 0.0,
+        "value": 0.0,
+        "inTangent": 0.0,
+        "outTangent": 5.0,
+        "inWeight": 0.0,
+        "outWeight": 5.0,
+        "weightedMode": "None",
+        "tangentMode": 0
+      },
+      {
+        "$type": "UnityEngine.Keyframe, UnityEngine.CoreModule",
+        "time": 1.0,
+        "value": 5.0,
+        "inTangent": 5.0,
+        "outTangent": 0.0,
+        "inWeight": 5.0,
+        "outWeight": 0.0,
+        "weightedMode": "None",
+        "tangentMode": 0
+      }
+    ],
+    "length": 2,
+    "preWrapMode": "ClampForever",
+    "postWrapMode": "ClampForever"
+  },
+  "repelMaxDistance": "Infinity",
+  "pullAndRepelMaxSpeed": 100.0,
+  "pullAndRepelNoDragThreshold": 1000.0,
+  "spinVelocityCurve": {
+    "$type": "UnityEngine.AnimationCurve, UnityEngine.CoreModule",
+    "keys": [
+      {
+        "$type": "UnityEngine.Keyframe, UnityEngine.CoreModule",
+        "time": 0.0,
+        "value": 0.0,
+        "inTangent": 0.0,
+        "outTangent": 500.0,
+        "inWeight": 0.0,
+        "outWeight": 500.0,
+        "weightedMode": "None",
+        "tangentMode": 0
+      },
+      {
+        "$type": "UnityEngine.Keyframe, UnityEngine.CoreModule",
+        "time": 1.0,
+        "value": 500.0,
+        "inTangent": 500.0,
+        "outTangent": 0.0,
+        "inWeight": 500.0,
+        "outWeight": 0.0,
+        "weightedMode": "None",
+        "tangentMode": 0
+      }
+    ],
+    "length": 2,
+    "preWrapMode": "ClampForever",
+    "postWrapMode": "ClampForever"
+  },
+  "pushDefaultForce": 50.0,
+  "pushRagdollForce": 50.0,
+  "pushRagdollOtherPartsForce": 50.0,
+  "maxVelocity": "Infinity"
+}

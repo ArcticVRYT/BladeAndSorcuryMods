@@ -1,0 +1,9 @@
+{
+  "$type": "ThunderRoad.SpellCastProjectile, ThunderRoad",
+  "id": "Fire",
+  "saveFolder": "bas",
+  "sensitiveContent": "None",
+  "sensitiveFilterBehaviour": "Discard",
+  "version": 0,
+  "projectileId": "ExplodingFireball"
+}
